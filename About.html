@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>Flag</title>
+    </head>
+    <style>
+         header{
+            display: flex;
+            align-items: center;
+            border:5px maroon;
+         
+        }
+        header a{
+            text-decoration:none;
+            font-size:30px;
+            color:red;
+        }
+        
+        header div{
+            width:45%;
+        }
+        #headerone{
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        #bgv{
+            position:fixed;
+            top:0;
+            left:0;
+            width:100%;
+            height:100vh;
+            object-fit: cover;
+            z-index:-1;
+        }
+        #ab{
+           width:100%;
+           background-color:rgba(255, 166, 0, 0.371);
+        }
+        #ab:hover{
+            background:linear-gradient(orange,white,green);
+            color:blue;
+        }
+        #ab h1{
+           color:orange;
+            
+        }
+        #ab h2{
+           
+           color:white;
+           font-family:calibri;
+
+        }
+        #ac{
+            width:100%;
+            background-color:rgba(255, 255, 255, 0.338);
+        }
+        #ac h1{
+            color:white;
+
+        }
+        #ac h2{
+           
+           color:rgba(0, 0, 255, 0.677);
+           font-family:calibri;
+
+        }
+        #ad {
+            width:100%;
+            background-color: rgba(0, 128, 0, 0.405);
+        }
+        #ad h1{
+            color:rgb(0, 128, 0);
+        }
+        #ad h2{
+            color:white;
+            font-family: calibri;
+            text-align: justify;
+        }
+        #aa{
+            width:100%;
+
+        }
+        #aa img{
+            border-radius:30px;
+        }
+        
+    </style>
+    <body>
+        <header>
+            <div>
+               <img src="logo.png"width="200">
+            </div>
+
+                <div id="headerone">
+                    <a href="index.html">Home</a>
+                    <a href="history.html"target="_blank">History</a>
+                    <a href="places.html">Places</a>
+                    
+                </div>     
+        </header>
+        <video autoplay loop muted id="bgv"> 
+            <source src="flagvd.mp4" controls>
+        </video>
+        
+        <div id="ab">
+            <h1>Indian flag:</h1>
+            <h2>The Indian national flag, also known as the Tiranga, was designed by Pingali Venkayya, a freedom fighter from Andhra Pradesh. He designed it in 1921 during the Swaraj Movement, motivated by Mahatma Gandhi. The flag, initially featuring a charkha (spinning wheel), was adopted in its present form during a meeting of the Constituent Assembly on July 22, 1947, just a few days before India's independence.  
+</h2>
+
+        </div>
+        <div id="ac">
+            <h1>Symbolism of the colours</h1>
+            <h2>Saffron: Represents courage, sacrifice, and renunciation. <br>
+White: Symbolizes peace, truth, and purity. <br>
+Green: Represents fertility, growth, and the auspiciousness of the land. <br>
+Ashoka Chakra: Depicts the "wheel of law" and symbolizes progress and the dynamism of the nation. <br>The 24 spokes represent the 24 hours in a day.</h2>
+        </div>
+        <div id="ad">
+            <h1>Independence Day</h1>
+            <h2>Every free nation of the world has its own flag. It is a symbol of a free country. The National Flag of India was adopted in its present form during the meeting of Constituent Assembly held on the 22 July 1947, a few days before India's independence from the British on 15 August, 1947. It served as the national flag of the Dominion of India between 15 August 1947 and 26 January 1950 and that of the Republic of India thereafter. In India, the term "tricolour" refers to the Indian national flag.</h2>
+             
+        </div>
+        <div id="aa">
+            <marquee onmouseover="this.stop()" onmouseout="this.start()">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2023/12/370478461/YK/RI/SX/5650316/indian-national-polyester-flag.jpeg"width="300"height="300">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/025/395/077/small_2x/happy-independence-day-india-indian-flag-waving-indian-flag-in-creative-background-generative-ai-photo.jpg"width="300"height="300">
+            <img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-29014,resizemode-75,msid-112530954/news/india/celebrating-78-years-of-independence-the-history-behind-indias-national-flag-and-significance-of-tricolour.jpg"width="300"height="300">
+            <img src="https://images.csmonitor.com/csmarchives/2010/08/0815-IndiaDay.jpg?alias=standard_900x600"width="300"height="300">
+            <img src="https://img.freepik.com/premium-photo/unique-creative-interpretation-indian-flag-independence-day-indian-republic-day_851674-69265.jpg"width="300"height="300">
+            </marquee>
+        </div>
+        </div>
+    </body>
+</html>
